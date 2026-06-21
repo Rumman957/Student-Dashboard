@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <!--main container-->
+    
+
+    <!-- aside starts -->
+    <aside>
+        <!-- top starts -->
+        <div class="top">
+            <div class="logo">
+                <span class="material-symbols-outlined filled school">
+                    school
+                </span>
+                <span class="name">Student Dashboard</span>
+            </div>
+            <div class="student-profile">
+                <div class="profile-content">
+                    <div class="img-container">
+                        <img class="student-img" src="ME3.png" alt="pic">
+                    </div>
+                    <div class="student-name">M. Rumman</div>
+                    <small>Student</small>
+                </div>
+            </div>
+
+        </div>
+        <!-- top end -->
+
+        <!-- navbar start -->
+        <div class="navbar">
+            <nav class="nav-buttons">
+                <ul class="nav-buttons-list">
+                    <li class="nav-button dashboard "><span class="material-symbols-outlined">
+                            home
+                        </span>Dashboard</li>
+                    <li class="nav-button subjects "><span class="material-symbols-outlined">
+                            subject
+                        </span>Subjects</li>
+                    <li class="nav-button assignments "><span class="material-symbols-outlined">
+                            assignment
+                        </span>Assignments</li>
+                    <li class="nav-button grades "><span class="material-symbols-outlined">
+                            grade
+                        </span>Grades</li>
+                    <li class="nav-button messages "><span class="material-symbols-outlined">
+                            message
+                        </span>Messages</li>
+                    <div class="line"></div>
+                    <li class="setting&log setting"><span class="material-symbols-outlined">
+                            settings
+                        </span>Settings</li>
+                    <li class="setting&log logging"><span class="material-symbols-outlined">
+                            logout
+                        </span>Logout</li>
+                </ul>
+
+
+            </nav>
+        </div>
+        <!-- navbar ends -->
+
+
+    </aside>
+    <!-- aside ends -->
+
+    <!-- main start -->
+    <main class="main">
+        <!-- header starts -->
+        <header class="top-head">
+            <div class="header-content">
+                <span class="material-symbols-outlined filled school">
+                    notifications
+                </span>
+                <div class="img-container">
+                    <img class="student-img" src="ME3.png" alt="pic">
+                </div>
+                <div class="received-messages">
+                    <span class="material-symbols-outlined filled noti">
+                        notifications
+                    </span>
+                    <div class="number">1</div>
+                </div>
+                <span class="material-symbols-outlined filled school">
+                    keyboard_arrow_down
+                </span>
+            </div>
+        </header>
+        <!-- header ends -->
+
+        <!-- card starts -->
+
+        <div class="cards">
+            <div class="card card1">
+                <div class="content card1-content">
+                    <p class="card-heading attendence">Attendence</p>
+                    <p class="percent value">92%</p>
+                    <small>This Month</small>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="card2-content content">
+                    <p class="card-heading assignments-due">Assignments Due</p>
+                    <p class="days value">4</p>
+                    <small>Pending Tasks</small>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="card3-content content">
+                    <p class="card-heading overall-grades">Overall Grades</p>
+                    <p class="grades value">A+</p>
+                    <small>Current Gradesx</small>
+                </div>
+            </div>
+        </div>
+        <!-- card ends -->
+
+        <!-- profile section starts -->
+        <section class="profile-section-container">
+            <header class="profile-section-header">
+                <p class="profile-section-header-heading heading">My Profile</p>
+            </header>
+            <div class="profile-section-content">
+                <!-- student ID starts -->
+                <div class="studentID">
+                    <div class="student-display">
+                        <div class="img-container2">
+                            <img class="student-img2" src="ME3.png" alt="pic">
+
+                        </div>
+                        <div class="name-subject">
+                            <p class="student-display-name">M. Rumman</p>
+                            <small class="subject">Computer Science Major</small>
+
+                        </div>
+                    </div>
+                    <div class="personel-info">
+                        <ul class="personel-info-items">
+                            <li class="id">ID: 12345</li>
+                            <li class="email">Email: abc@gmail.com</li>
+                            <li class="year">Year: Second</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- student ID ends-->
+
+                <!-- Table of data starts -->
+                <div class="table">
+                    <div class="table-head">
+                        <p class="table-heading">Recent Assignments</p>
+                    </div>
+                    <table>
+                        <thead>
+                            <th>Assignment</th>
+                            <th>Subject</th>
+                            <th>Due Date</th>
+                            <th>Status</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Math Homework</td>
+                                <td>Mathematics</td>
+                                <td>May 15, 2026</td>
+                                <td><span class="status status-complete">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>History Essay</td>
+                                <td>History</td>
+                                <td>May 16, 2026</td>
+                                <td><span class="status status-pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>JS Project</td>
+                                <td>Computer Science</td>
+                                <td>May 11, 2026</td>
+                                <td><span class="status status-progress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Story reading</td>
+                                <td>English</td>
+                                <td>May 25, 2026</td>
+                                <td><span class="status status-complete">Completed</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Table of data ends -->
+            </div>
+
+        </section>
+        <!-- profile section ends -->
+    </main>
+    <!-- main end -->
+
+
+
+</body>
+
+</html>
