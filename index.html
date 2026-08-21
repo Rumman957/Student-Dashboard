@@ -9,11 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body class="container">
     <!--main container-->
-    
+
 
     <!-- aside starts -->
     <aside>
@@ -24,6 +25,7 @@
                     school
                 </span>
                 <span class="name">Student Dashboard</span>
+                <span class="close-icon">&times;</span>
             </div>
             <div class="student-profile">
                 <div class="profile-content">
@@ -79,10 +81,17 @@
     <main class="main">
         <!-- header starts -->
         <header class="top-head">
+            <div class="hamburger-menu">
+                <span class="hamburger-icon">&#9776;</span>
+                <div class="tab-name">
+                    <p>Dashboard</p>
+                    <small>Welcome back, Rumman!</small>
+                </div>
+            </div>
             <div class="header-content">
-                <span class="material-symbols-outlined filled school">
+                <!-- <span class="material-symbols-outlined filled school">
                     notifications
-                </span>
+                </span> -->
                 <div class="img-container">
                     <img class="student-img" src="ME3.png" alt="pic">
                 </div>
@@ -92,7 +101,7 @@
                     </span>
                     <div class="number">1</div>
                 </div>
-                <span class="material-symbols-outlined filled school">
+                <span class="material-symbols-outlined filled school arrow">
                     keyboard_arrow_down
                 </span>
             </div>
